@@ -12,3 +12,9 @@ describe('First two terms', function() {
       assert.strictEqual(main.factorial(1), 1);
     });
 });
+
+describe('Irregular fibonacci value', function() {
+    it('should return undefined for Fact(-1)', function() {
+        assert.strictEqual(main.factorial(-1), undefined);
+      });
+});
